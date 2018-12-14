@@ -59,7 +59,7 @@ public class GameManager : MonoBehaviour {
 	}
 
 	void Update() {
-		if (Input.GetKeyDown(KeyCode.P) && !mainMenu) {
+		if (Input.GetKeyDown(KeyCode.Escape) && !mainMenu) {
 			TogglePauseMenu();
 		}
 

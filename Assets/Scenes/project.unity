@@ -269,7 +269,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 476.6
+      value: 430.4
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalRotation.x
@@ -289,7 +289,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_RootOrder
-      value: 17
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 1398455459243526, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_Name
@@ -347,6 +347,11 @@ Prefab:
         a separate family when Chicanx/Latinx individuals like Nila and Roc faced
         familial challenges and lacked household stability."
       objectReference: {fileID: 0}
+    - target: {fileID: 82915785956797026, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: f60a8faad12464b319a07bed0d9db39b, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
   m_IsPrefabParent: 0
@@ -367,7 +372,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 296.6
+      value: 250.4
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalRotation.x
@@ -387,7 +392,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1398455459243526, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_Name
@@ -450,9 +455,104 @@ Prefab:
         of tattoo world Hardy perpetuated, they still had a stake in the artistic
         development of the region."
       objectReference: {fileID: 0}
+    - target: {fileID: 82915785956797026, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 40b2d99da6a864b2d8ee6f9bf4d42ed0, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &254957657
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1626420322713266, guid: 387b0ac096905450db72db4ee5f9ebfd,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 254957658}
+  - component: {fileID: 254957661}
+  - component: {fileID: 254957660}
+  - component: {fileID: 254957659}
+  m_Layer: 0
+  m_Name: textHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &254957658
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4798206650384664, guid: 387b0ac096905450db72db4ee5f9ebfd,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 254957657}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.75, y: 0.25, z: -0}
+  m_LocalScale: {x: 2.5, y: 1.5, z: 1}
+  m_Children:
+  - {fileID: 963375757}
+  m_Father: {fileID: 674884965}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &254957659
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 65533556642868564, guid: 387b0ac096905450db72db4ee5f9ebfd,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 254957657}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &254957660
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 23118799633615998, guid: 387b0ac096905450db72db4ee5f9ebfd,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 254957657}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &254957661
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 33572417412774798, guid: 387b0ac096905450db72db4ee5f9ebfd,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 254957657}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &470898640
 Prefab:
   m_ObjectHideFlags: 0
@@ -699,6 +799,69 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 614329944}
+--- !u!1 &674884964
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1682986893313554, guid: 387b0ac096905450db72db4ee5f9ebfd,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 674884965}
+  - component: {fileID: 674884966}
+  m_Layer: 0
+  m_Name: textManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &674884965
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4582549726377934, guid: 387b0ac096905450db72db4ee5f9ebfd,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 674884964}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 254957658}
+  - {fileID: 915818600}
+  m_Father: {fileID: 1652200123}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &674884966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114951115172397198, guid: 387b0ac096905450db72db4ee5f9ebfd,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 674884964}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d504b11422f249adb29bec86da408ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charactersPerLine: 70
+  linesPerBlock: 12
+  leftBlock: {fileID: 963375758}
+  rightBlock: {fileID: 1932169429}
+  text: "This is an interactive virtual museum that explores the existing connections
+    between tattooing and street art, specifically graffiti, in San Francisco. Here
+    you will find images of artworks, tattoos, and graffiti provided by the interviewees,
+    along with accompanying audio clips from an interview. Roc is a Chicano male who
+    is the main focus of this virtual museum and our project. He was incarcerated
+    for 8 years (released 2016), and tattooed inside and outside of prison. During
+    the 1980s height of the Street Art movement and his adolescence, he was part of
+    the street art collective \u201CTMF,\u201D which is one of the most notable San
+    Francisco collectives. Nila, who is around the same age, is a mixed race Latina
+    and Filipina woman who also contributes to our project, and maintains a long-standing
+    relationship with Roc. She was also part of a SF street art collective, called
+    \u201COTC,\u201D during the same time as Roc. Both individuals were born and raised
+    in San Francisco.   Created by Tre Gonzales and Josephine Ren for ASAM077B, taught
+    by Todd Honma, in Fall 2018.  "
 --- !u!1001 &765930867
 Prefab:
   m_ObjectHideFlags: 0
@@ -716,7 +879,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 251.6
+      value: 205.4
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalRotation.x
@@ -736,12 +899,17 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1398455459243526, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_Name
       value: stand (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 82915785956797026, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: c8ff1e86552884cbba9b8ce15686968e, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
   m_IsPrefabParent: 0
@@ -829,6 +997,197 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &915818599
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1116721918392444, guid: 387b0ac096905450db72db4ee5f9ebfd,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 915818600}
+  - component: {fileID: 915818603}
+  - component: {fileID: 915818602}
+  - component: {fileID: 915818601}
+  m_Layer: 0
+  m_Name: textHolder (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &915818600
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4666460460154938, guid: 387b0ac096905450db72db4ee5f9ebfd,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 915818599}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.75, y: 0.25, z: 0}
+  m_LocalScale: {x: 2.5, y: 1.5, z: 0.9999999}
+  m_Children:
+  - {fileID: 1932169428}
+  m_Father: {fileID: 674884965}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &915818601
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 65033278277430636, guid: 387b0ac096905450db72db4ee5f9ebfd,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 915818599}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &915818602
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 23221710747083766, guid: 387b0ac096905450db72db4ee5f9ebfd,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 915818599}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &915818603
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 33084738594742140, guid: 387b0ac096905450db72db4ee5f9ebfd,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 915818599}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &963375756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1768765953206060, guid: 387b0ac096905450db72db4ee5f9ebfd,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 963375757}
+  - component: {fileID: 963375759}
+  - component: {fileID: 963375758}
+  m_Layer: 0
+  m_Name: text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &963375757
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4697797660906932, guid: 387b0ac096905450db72db4ee5f9ebfd,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 963375756}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.6}
+  m_LocalScale: {x: 0.5, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 254957658}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!102 &963375758
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 102486523733460888, guid: 387b0ac096905450db72db4ee5f9ebfd,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 963375756}
+  m_Text: "This is an interactive virtual museum that explores the existing\n connections
+    between tattooing and street art, specifically graffiti, in\n San Francisco. Here
+    you will find images of artworks, tattoos, and\n graffiti provided by the interviewees,
+    along with accompanying audio\n clips from an interview. Roc is a Chicano male
+    who is the main focus of\n this virtual museum and our project. He was incarcerated
+    for 8 years\n (released 2016), and tattooed inside and outside of prison. During
+    the\n 1980s height of the Street Art movement and his adolescence, he was\n part
+    of the street art collective \u201CTMF,\u201D which is one of the most\n notable
+    San Francisco collectives. Nila, who is around the same age, is\n a mixed race
+    Latina and Filipina woman who also contributes to our\n project, and maintains
+    a long-standing relationship with Roc. She was\n also part of a SF street art
+    collective, called \u201COTC,\u201D during the same\n time as Roc. Both individuals
+    were born and raised in San Francisco.\n"
+  m_OffsetZ: 0
+  m_CharacterSize: 0.01
+  m_LineSpacing: 1
+  m_Anchor: 4
+  m_Alignment: 1
+  m_TabSize: 4
+  m_FontSize: 50
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 12800000, guid: 64da823816c114650b984839a833ee25, type: 3}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4278190080
+--- !u!23 &963375759
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 23062519624647636, guid: 387b0ac096905450db72db4ee5f9ebfd,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 963375756}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1d56249e105e1493eb771e4be37fe820, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
 --- !u!1 &1025418299
 GameObject:
   m_ObjectHideFlags: 0
@@ -1088,7 +1447,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 326.6
+      value: 280.4
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1108,7 +1467,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 1398455459243526, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_Name
@@ -1166,6 +1525,11 @@ Prefab:
         communication in relation to status and hierarchy systems which develop amongst
         inmates.
       objectReference: {fileID: 0}
+    - target: {fileID: 82915785956797026, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 9e5fd4644ee8b4cb99584e291d6e06d9, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
   m_IsPrefabParent: 0
@@ -1244,7 +1608,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 371.6
+      value: 325.4
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1264,7 +1628,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_RootOrder
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 1398455459243526, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_Name
@@ -1321,6 +1685,11 @@ Prefab:
         The larger treble clef also allowed Roc to implement his Chicano black and
         grey style shading. "
       objectReference: {fileID: 0}
+    - target: {fileID: 82915785956797026, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 489f3711481ae421eb417126deb4c916, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
   m_IsPrefabParent: 0
@@ -1341,7 +1710,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 341.6
+      value: 295.4
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1361,7 +1730,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 1398455459243526, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_Name
@@ -1413,6 +1782,11 @@ Prefab:
       value: 'This is another tattoo Roc executed within prison; the meaning and motives
         behind it are unclear. '
       objectReference: {fileID: 0}
+    - target: {fileID: 82915785956797026, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 2adb23ff36e9b4233ba3abf2b01822aa, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
   m_IsPrefabParent: 0
@@ -1433,7 +1807,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 416.6
+      value: 370.4
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1453,7 +1827,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_RootOrder
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 1398455459243526, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_Name
@@ -1502,9 +1876,44 @@ Prefab:
       propertyPath: text
       value: 'This is another name piece completed outside of prison.  '
       objectReference: {fileID: 0}
+    - target: {fileID: 1826996022206346, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1652200122
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1398455459243526, guid: 387b0ac096905450db72db4ee5f9ebfd,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1652200123}
+  m_Layer: 0
+  m_Name: introBlock
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1652200123
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1652200122}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -21.127537, y: 6.27, z: 180.8}
+  m_LocalScale: {x: 5, y: 5, z: 1}
+  m_Children:
+  - {fileID: 674884965}
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1692290478
 Prefab:
   m_ObjectHideFlags: 0
@@ -1522,7 +1931,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 506.6
+      value: 460.4
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1542,7 +1951,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_RootOrder
-      value: 18
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 1398455459243526, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_Name
@@ -1592,6 +2001,252 @@ Prefab:
       value: "The circled image shows Nila\u2019s graffiti tag from when she was part
         of OTC.  "
       objectReference: {fileID: 0}
+    - target: {fileID: 82915785956797026, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 6dcd6971f81904e07ba645d0493b13fb, type: 3}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &1932169427
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1670846266656046, guid: 387b0ac096905450db72db4ee5f9ebfd,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1932169428}
+  - component: {fileID: 1932169430}
+  - component: {fileID: 1932169429}
+  m_Layer: 0
+  m_Name: text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1932169428
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4735813903835062, guid: 387b0ac096905450db72db4ee5f9ebfd,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1932169427}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.6}
+  m_LocalScale: {x: 0.5, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 915818600}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!102 &1932169429
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 102687924906977804, guid: 387b0ac096905450db72db4ee5f9ebfd,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1932169427}
+  m_Text: "Created by Tre Gonzales and Josephine Ren\n for ASAM077B, taught by Todd
+    Honma, in Fall 2018. "
+  m_OffsetZ: 0
+  m_CharacterSize: 0.01
+  m_LineSpacing: 1
+  m_Anchor: 4
+  m_Alignment: 1
+  m_TabSize: 4
+  m_FontSize: 50
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 12800000, guid: 64da823816c114650b984839a833ee25, type: 3}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4278190080
+--- !u!23 &1932169430
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 23124118705554362, guid: 387b0ac096905450db72db4ee5f9ebfd,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1932169427}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1d56249e105e1493eb771e4be37fe820, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1001 &1954364392
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -21.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 6.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 505
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1398455459243526, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_Name
+      value: conclusionBlock
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 232af0423e84945b997e29d211b39e38,
+        type: 3}
+    - target: {fileID: 4202483231138090, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202483231138090, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 15.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 6.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 102687924906977804, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114951115172397198, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: text
+      value: "These images reflect the ways street art and tattooing connect with
+        one another, specifically within the city of San Francisco-- a location famous
+        for fostering a prominent subculture of street art/graffiti, and for being
+        relevant to tattooing history and industry. This case study focuses mainly
+        on Roc and his work as a tattooist and artist both inside and outside of the
+        U.S. federal prison, his practice in Chicano black and grey style within SF,
+        and his active participation in one of the most well-known SF street art collectives.
+        His drawings and tattoos reflect some overt influences and nuances derived
+        from his past as a graffiti artist. They also show how even years later and
+        within the vastly different, harsher environment of the prison, Roc remains
+        grounded in and indebted to his coming-of-age experiences as a San Francisco
+        graffiti collective member. He comes to embody the complexities lying at this
+        specific intersection of tattooing, urban art, the incarcerated body, Chicano
+        culture, and struggles of disadvantaged, marginalized communities of color
+        which inhabited San Francisco at the beginning of of gentrification. Thus,
+        these topics also reflect intersectionalities between understanding the socio-politics
+        of race and class. Both he and Nila emphasize how racial boundaries were not
+        present during their experiences as part of SF street art communities during
+        that time, and how these activities became ways for them to create their own
+        sense of community and family. However, in regards to understanding constructions
+        of race, it is important to note that these communities were predominantly
+        people of color from disadvantaged backgrounds and marginalized groups within
+        San Francisco. Furthermore, Roc\u2019s eventual prison sentence and practice
+        of tattooing serve as an extension of how his racial identity factored into
+        his circumstances. Both practices of urban art and tattooing fall within the
+        parameters of \u201Coutsider art\u201D and \u201Csubculture,\u201D particularly
+        within this city, yet had not been studied in relation to one another. Roc\u2019s
+        work, along with his and Nila\u2019s insights, demonstrates that connections
+        do exist between tattooing and street art in SF, and that studying their contexts
+        in correlation to one another reveals an increasingly complicated understanding
+        of racial construction, aesthetic developments, and a sociopolitical view
+        of the urban environment."
+      objectReference: {fileID: 0}
+    - target: {fileID: 82915785956797026, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 90b5d7d20b93e4277921fe00fc939d9c, type: 3}
+    - target: {fileID: 1888950673019360, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114951115172397198, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: linesPerBlock
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4082493951583166, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 4798206650384664, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666460460154938, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114951115172397198, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: charactersPerLine
+      value: 73
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
   m_IsPrefabParent: 0
@@ -1612,7 +2267,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 461.6
+      value: 415.4
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1632,7 +2287,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_RootOrder
-      value: 16
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 1398455459243526, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_Name
@@ -1688,6 +2343,11 @@ Prefab:
         used this \u201Cwild-style,\u201D which can be recalled in his tattoo lettering
         style. It is unclear of where this piece was located. "
       objectReference: {fileID: 0}
+    - target: {fileID: 82915785956797026, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: e5314840bb37b45b786fc28e9f42fb48, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
   m_IsPrefabParent: 0
@@ -1708,7 +2368,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 386.6
+      value: 340.4
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1728,7 +2388,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_RootOrder
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 1398455459243526, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_Name
@@ -1789,6 +2449,11 @@ Prefab:
         shading also show Roc\u2019s signature use of the Chicano black and grey style.
         \ "
       objectReference: {fileID: 0}
+    - target: {fileID: 82915785956797026, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 301944ac44a134ff8867181662b23ead, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
   m_IsPrefabParent: 0
@@ -1809,7 +2474,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 431.6
+      value: 385.4
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1829,7 +2494,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_RootOrder
-      value: 15
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 1398455459243526, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_Name
@@ -1878,14 +2543,23 @@ Prefab:
     - target: {fileID: 114951115172397198, guid: 387b0ac096905450db72db4ee5f9ebfd,
         type: 2}
       propertyPath: text
-      value: "This street art mural was done by a member of \u201CTMF,\u201D the SF
-        street art collective that Roc was part of during the 1980s. TMF stands for
-        either \u201CThe Most Fabulous\u201D or \u201CThe Mellow Fellows.\u201D It
-        was located in Psycho City, which was the most famous hub for street art/graffiti
-        in San Francisco during the time. It was a place where all the collectives
-        would congregate, interact with each other, exchange ideas, and even \u201Cbattle\u201D--
-        which were more friendly and fun-oriented, and never involved actual violence. "
+      value: "This street art mural was done by a member of \u201CTMF,\u201D or \u201CThe
+        Mellow Fellows,\u201D the SF street art collective that Roc was part of during
+        the 1980s. TMF was and remains one of the most famous Bay Area street art
+        collectives. It was located in Psycho City, which was the most famous hub
+        for street art/graffiti in San Francisco during the time. It was a place where
+        all the collectives would congregate, interact with each other, exchange ideas,
+        and even \u201Cbattle\u201D-- which were more friendly and fun-oriented, and
+        never involved actual violence. Public graffiti has historically been illegal
+        in SF, and throughout the 21st century there were further government initiatives
+        to remove such bouts of \u201Cvandalism.\u201D Now, Psycho City ceases to
+        exist."
       objectReference: {fileID: 0}
+    - target: {fileID: 82915785956797026, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 1136cce2622a041919b57345b9db858f, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
   m_IsPrefabParent: 0
@@ -1906,7 +2580,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 281.6
+      value: 235.4
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1926,7 +2600,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -1984,6 +2658,11 @@ Prefab:
         which could refer to his collective tag name \u201CRocko\u201D or \u201CRoc,\u201D
         the name he goes by. "
       objectReference: {fileID: 0}
+    - target: {fileID: 82915785956797026, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 556e4d93d5c284e7ca5aae928d5ff66c, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
   m_IsPrefabParent: 0

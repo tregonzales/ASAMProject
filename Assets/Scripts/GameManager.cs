@@ -64,9 +64,9 @@ public class GameManager : MonoBehaviour {
 		}
 
         // Debug.Log(Cursor.lockState);
-        if (!mainMenu && !paused && Cursor.lockState == CursorLockMode.None) {
-            Cursor.lockState = CursorLockMode.Locked;
-        }
+        // if (!mainMenu && !paused && Cursor.lockState == CursorLockMode.None) {
+        //     Cursor.lockState = CursorLockMode.Locked;
+        // }
 		
 		// if (Input.GetKeyDown(KeyCode.R) && !mainMenu) {
         // 	RestartTheGameAfterSeconds(0.5f);
@@ -87,6 +87,7 @@ public class GameManager : MonoBehaviour {
             user.GetComponent<MouseLook>().enabled = false;
             Camera.main.GetComponent<MouseLook>().enabled = false;
             pauseMenu.SetActive(!paused);
+            Cursor.lockState = CursorLockMode.None;
             Time.timeScale = 0f;
         }
         paused = !paused;

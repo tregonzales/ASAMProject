@@ -120,14 +120,9 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 23124118705554362, guid: 387b0ac096905450db72db4ee5f9ebfd,
-        type: 2}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -22.43
+      value: -27.51
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalPosition.y
@@ -155,17 +150,25 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1398455459243526, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_Name
       value: stand (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 23124118705554362, guid: 387b0ac096905450db72db4ee5f9ebfd,
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -23.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 102687924906977804, guid: 387b0ac096905450db72db4ee5f9ebfd,
         type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 1d56249e105e1493eb771e4be37fe820, type: 2}
+      propertyPath: m_Text
+      value: 'Sketch by Rocko containing imagery
+
+        of SF, California, Chicanas, & low rider.
+
+        Classic Chicanx black & grey style sketch.'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
   m_IsPrefabParent: 0
@@ -308,48 +311,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1001 &204681190
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -10.27
-      objectReference: {fileID: 0}
-    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 11.06
-      objectReference: {fileID: 0}
-    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 41.56
-      objectReference: {fileID: 0}
-    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0.2021891
-      objectReference: {fileID: 0}
-    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 0.9793465
-      objectReference: {fileID: 0}
-    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1001 &248953113
 Prefab:
   m_ObjectHideFlags: 0
@@ -359,7 +320,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -5.63
+      value: -2.49
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalPosition.y
@@ -387,7 +348,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1398455459243526, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_Name
@@ -396,6 +357,27 @@ Prefab:
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a2a1a4dd8292f418aa6b5a8246b5709c,
+        type: 3}
+    - target: {fileID: 4202483231138090, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202483231138090, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 102687924906977804, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Text
+      value: "Tattoo done by Rocko during his time\nin prison. Chinese character meaning\n\"water\"
+        with background of shaded\nwebbing in Chicanx black & grey style.\nDripping
+        effect emulates graffiti drip \ntechnique.\n"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
@@ -437,27 +419,22 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4047881788879286, guid: fc200386c5dac41da9dacfa0bafa4a27, type: 2}
       propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 54391820019432716, guid: fc200386c5dac41da9dacfa0bafa4a27,
-        type: 2}
-      propertyPath: m_AngularDrag
-      value: 100
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114754185300387428, guid: fc200386c5dac41da9dacfa0bafa4a27,
         type: 2}
-      propertyPath: walkSpeed
-      value: 10
+      propertyPath: walkBounce
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114754185300387428, guid: fc200386c5dac41da9dacfa0bafa4a27,
+        type: 2}
+      propertyPath: bounceTime
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 20075424174858276, guid: fc200386c5dac41da9dacfa0bafa4a27,
         type: 2}
       propertyPath: m_ClearFlags
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 54391820019432716, guid: fc200386c5dac41da9dacfa0bafa4a27,
-        type: 2}
-      propertyPath: m_Drag
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fc200386c5dac41da9dacfa0bafa4a27, type: 2}
@@ -522,7 +499,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &614329944
 GameObject:
@@ -690,7 +667,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 37f8e1f14b641421897e7cc43ffeb0af, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -728,7 +705,7 @@ Transform:
   m_LocalScale: {x: 50, y: 1, z: 226.67}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1025418299
 GameObject:
@@ -889,7 +866,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4823192319696612, guid: cd2b91bac4a754e6686b879f55ed95f5, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1340404607250332, guid: cd2b91bac4a754e6686b879f55ed95f5, type: 2}
       propertyPath: m_TagString
@@ -972,6 +949,96 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cd2b91bac4a754e6686b879f55ed95f5, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &1230397245
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -29.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 6.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 199.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0.2021891
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.9793465
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1398455459243526, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_Name
+      value: stand (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -23.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5d2e136514efc4da8925510652216bbc,
+        type: 3}
+    - target: {fileID: 4202483231138090, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202483231138090, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 15.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 6.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 102687924906977804, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Text
+      value: 'Graffiti wall from Psycho City, the most
+
+        well-known graffiti hub of the 80s in SF.
+
+        Artwork done by member of Rocko''s
+
+        collective "TMF." '
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &1235993328
 Prefab:
   m_ObjectHideFlags: 0
@@ -1009,7 +1076,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4790455261653694, guid: 4b1cd189451a64087902d5197795d22a, type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 114600748986322372, guid: 4b1cd189451a64087902d5197795d22a,
         type: 2}
@@ -1123,7 +1190,7 @@ RectTransform:
   - {fileID: 614329945}
   - {fileID: 1025418300}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}

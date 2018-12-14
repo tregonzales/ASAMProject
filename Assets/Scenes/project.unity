@@ -113,65 +113,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &14739197
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -27.51
-      objectReference: {fileID: 0}
-    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 6.27
-      objectReference: {fileID: 0}
-    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 154.20279
-      objectReference: {fileID: 0}
-    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0.2021891
-      objectReference: {fileID: 0}
-    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 0.9793465
-      objectReference: {fileID: 0}
-    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
-      propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 1398455459243526, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
-      propertyPath: m_Name
-      value: stand (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -23.33
-      objectReference: {fileID: 0}
-    - target: {fileID: 102687924906977804, guid: 387b0ac096905450db72db4ee5f9ebfd,
-        type: 2}
-      propertyPath: m_Text
-      value: 'Sketch by Rocko containing imagery
-
-        of SF, California, Chicanas, & low rider.
-
-        Classic Chicanx black & grey style sketch.'
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &87116213
 GameObject:
   m_ObjectHideFlags: 0
@@ -311,6 +252,104 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &221600011
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -54
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 6.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 476.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0.19936797
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.97992474
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 1398455459243526, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_Name
+      value: stand (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -23
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9cad6fb9c43c543be98f3edef668cbe8,
+        type: 3}
+    - target: {fileID: 4202483231138090, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202483231138090, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 15.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 6.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 102687924906977804, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Text
+      value: '
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 114951115172397198, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: text
+      value: "This graffiti piece is the name of the SF street art collective Nila
+        was formerly part of during the same time as Roc, which was called \u201COTC\u201D
+        and stands for \u201COut to Crush.\u201D Although she was not as actively
+        involved in producing artwork as Roc was, she and Roc both discuss how this
+        street art scene became representative of the communities they built for themselves.
+        The streets became their playground, and the people they interacted with became
+        a separate family when Chicanx/Latinx individuals like Nila and Roc faced
+        familial challenges and lacked household stability."
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &248953113
 Prefab:
   m_ObjectHideFlags: 0
@@ -320,7 +359,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -2.49
+      value: -54
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalPosition.y
@@ -328,7 +367,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 173.51
+      value: 296.6
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalRotation.x
@@ -336,7 +375,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0.2164396
+      value: -0.19936797
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalRotation.z
@@ -344,11 +383,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 0.97629607
+      value: 0.97992474
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1398455459243526, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_Name
@@ -356,7 +395,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 25
+      value: -23
       objectReference: {fileID: 0}
     - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
         type: 2}
@@ -378,6 +417,38 @@ Prefab:
       value: "Tattoo done by Rocko during his time\nin prison. Chinese character meaning\n\"water\"
         with background of shaded\nwebbing in Chicanx black & grey style.\nDripping
         effect emulates graffiti drip \ntechnique.\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 114951115172397198, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: text
+      value: "During his time in prison, Roc began tattooing other inmates. Thus,
+        he becomes another embodiment of what B.V. Olgu\xEDn calls the \u201CPinto
+        visual vernacular.\u201D Roc cites this as a means of survival for him within
+        prison, and he discusses the makeshift materials and processes he used inside.
+        He also discusses how this work fostered systems of economic exchange, and
+        facilitated different social interactions between these incarcerated men.
+        Roc completed this tattoo on another inmate inside prison. It depicts a Chinese
+        character in front of a background of webbing design or hand fan with Chicano
+        black and grey style shading. Similarly to the lettering in the second drawing,
+        Roc utilizes the graffiti \u201Cdrip\u201D technique on the Chinese character.
+        The dripping effect takes on double meaning since it physically represents
+        the meaning of the character, which translates to \u201Cwater.\u201D It is
+        interesting to note the inter-mixing of Chicano black and grey style prison
+        tattooing with East Asian elements-- especially when East Asian tattoo aesthetics
+        played a large role in San Francisco plus general tattooing history. For example,
+        Ed Hardy is a prolific figure in the tattoo world, and is known for his heavy
+        incorporation and popularization of Japanese tattooing into his own work.
+        In 1978, around the same time people like Roc are participating in the SF
+        street art movement, Hardy opened up a notable tattoo shop in SF. The predominant
+        focus on popular SF tattooists like Ed Hardy leaves out the artistic development
+        which existed in the street art movements of the 1980s. During that time,
+        Roc and Nila said that people like them who participated in the SF urban art
+        movement did not associate much with tattooing, and that only gang members
+        would get tattooed. It wasn\u2019t until later on that street art would begin
+        to influence Roc\u2019s artwork and tattoos. Although the communities surrounding
+        graffiti and street art may not have been as directly related to the sort
+        of tattoo world Hardy perpetuated, they still had a stake in the artistic
+        development of the region."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
@@ -435,6 +506,11 @@ Prefab:
         type: 2}
       propertyPath: m_ClearFlags
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114754185300387428, guid: fc200386c5dac41da9dacfa0bafa4a27,
+        type: 2}
+      propertyPath: walkSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fc200386c5dac41da9dacfa0bafa4a27, type: 2}
@@ -623,6 +699,52 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 614329944}
+--- !u!1001 &765930867
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -54
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 6.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 251.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0.2021891
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.9793465
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1398455459243526, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_Name
+      value: stand (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &839056913
 GameObject:
   m_ObjectHideFlags: 0
@@ -701,8 +823,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 839056913}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.7, y: 3.27, z: 240.04}
-  m_LocalScale: {x: 50, y: 1, z: 226.67}
+  m_LocalPosition: {x: -14.7, y: 3.27, z: 381.9}
+  m_LocalScale: {x: 173.6, y: 1, z: 523.8}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -958,7 +1080,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -29.7
+      value: 17.8
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalPosition.y
@@ -966,7 +1088,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 199.44
+      value: 326.6
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalRotation.x
@@ -974,7 +1096,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalRotation.y
-      value: -0.2021891
+      value: 0.19936788
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalRotation.z
@@ -982,11 +1104,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 0.9793465
+      value: 0.97992474
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1398455459243526, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_Name
@@ -994,13 +1116,13 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -23.33
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
         type: 2}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 5d2e136514efc4da8925510652216bbc,
+      objectReference: {fileID: 21300000, guid: 8bcf93a17960e4b57ad2b2ea385818e8,
         type: 3}
     - target: {fileID: 4202483231138090, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
       propertyPath: m_LocalScale.y
@@ -1028,13 +1150,21 @@ Prefab:
     - target: {fileID: 102687924906977804, guid: 387b0ac096905450db72db4ee5f9ebfd,
         type: 2}
       propertyPath: m_Text
-      value: 'Graffiti wall from Psycho City, the most
-
-        well-known graffiti hub of the 80s in SF.
-
-        Artwork done by member of Rocko''s
-
-        collective "TMF." '
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114951115172397198, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: text
+      value: This tattoo, also completed in prison, represents a move away from common
+        Chicano black and grey tattoo imagery. It portrays a human face, yet distorts
+        it to a point where it starts to become inhuman. This expression of what seems
+        to be a monstrous cry of anguish reflects negative emotional tolls such as
+        fear, distraughtness, anger, and pain which may result from incarceration
+        and general difficulties of life. On another hand, the monstrous quality and
+        expression may also represent a level of power asserted by its owner, and
+        is meant to generate fear within others. This is an important aspect of visual
+        communication in relation to status and hierarchy systems which develop amongst
+        inmates.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
@@ -1097,6 +1227,766 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1235993328}
   m_Script: {fileID: 11500000, guid: cb13e86bdf95b4a969f11fa062150338, type: 3}
+--- !u!1001 &1406194149
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 17.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 6.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 371.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.19936788
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.97992474
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1398455459243526, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_Name
+      value: stand (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: dbe9555052722447f9760150e5c46dfc,
+        type: 3}
+    - target: {fileID: 4202483231138090, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202483231138090, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 15.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 6.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 102687924906977804, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114951115172397198, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: text
+      value: "Moving on to tattoos which Roc executed outside of prison after he completed
+        his sentence, here is an example of tattoos he did for individuals in his
+        or their homes. Although he had ideas for opening up his own tattoo shop after
+        prison, he currently only tattoos individuals here and there who he typically
+        has personal connections with. The smaller, black music notes, along with
+        how the lines of the musical bar scroll at the upper ends, slightly refer
+        to the scrolling and curling ends of \u201Cwild-style\u201D graffiti lettering.
+        The larger treble clef also allowed Roc to implement his Chicano black and
+        grey style shading. "
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1534712154
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -54
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 6.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 341.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0.19936797
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.97992474
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1398455459243526, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_Name
+      value: stand (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -23
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 795f28fd6bfc1432dbbe26c0feb373c3,
+        type: 3}
+    - target: {fileID: 4202483231138090, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202483231138090, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 15.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 6.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 102687924906977804, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Text
+      value: '
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 114951115172397198, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: text
+      value: 'This is another tattoo Roc executed within prison; the meaning and motives
+        behind it are unclear. '
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1637360524
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 17.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 6.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 416.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.19936788
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.97992474
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1398455459243526, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_Name
+      value: stand (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9a7986fd23d054dea9fee6bd7cdf9c97,
+        type: 3}
+    - target: {fileID: 4202483231138090, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202483231138090, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 15.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 6.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 102687924906977804, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114951115172397198, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: text
+      value: 'This is another name piece completed outside of prison.  '
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1692290478
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 17.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 6.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 506.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.19936788
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.97992474
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1398455459243526, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_Name
+      value: stand (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 232af0423e84945b997e29d211b39e38,
+        type: 3}
+    - target: {fileID: 4202483231138090, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202483231138090, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 15.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 6.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 102687924906977804, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114951115172397198, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: text
+      value: "The circled image shows Nila\u2019s graffiti tag from when she was part
+        of OTC.  "
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &2003261043
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 17.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 6.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 461.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.19936788
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.97992474
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1398455459243526, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_Name
+      value: stand (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 51c867f0d19494cd78875c327cbb8ce9,
+        type: 3}
+    - target: {fileID: 4202483231138090, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202483231138090, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 15.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 6.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 102687924906977804, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114951115172397198, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: text
+      value: "This is a public graffiti lettering piece done by Roc\u2019s former
+        street art collective called \u201CTMF.\u201D At the bottom right of the piece,
+        within a section of the green lettering, is Roc\u2019s graffiti tag \u201CROCKO.\u201D
+        The artwork is typical of the \u201Cwild-style\u201D of graffiti lettering,
+        which was very popular and characteristic of San Francisco street art during
+        the time. Roc and other members of his collective produced many pieces which
+        used this \u201Cwild-style,\u201D which can be recalled in his tattoo lettering
+        style. It is unclear of where this piece was located. "
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &2013897166
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -54
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 6.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 386.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0.19936797
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.97992474
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1398455459243526, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_Name
+      value: stand (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -23
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 58f43107608394b8489ad410819408c4,
+        type: 3}
+    - target: {fileID: 4202483231138090, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202483231138090, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 15.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 6.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 102687924906977804, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Text
+      value: '
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 114951115172397198, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: text
+      value: "In this tattoo Roc produced outside of prison, the lettering of the
+        name draws from the old-school \u201Cwild-style\u201D popularly employed in
+        San Francisco graffiti. The proportionality of small to large lettering, the
+        dotting of the letter \u201Ci\u201D with a sharp wick, the sharp transition
+        from \u201Ce\u201D to \u201Cr,\u201D the curved, scrolling forms and loops,
+        and the flourishing \u201Cwhip\u201D following the ending \u201Ce\u201D are
+        all characteristic of \u201Cwild-style\u201D graffiti letters. Nila and Roc
+        discussed how graffiti helped transition lettering style to this example from
+        past \u201COld English\u201D and block letters. The surrounding clouds and
+        shading also show Roc\u2019s signature use of the Chicano black and grey style.
+        \ "
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &2031953550
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -54
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 6.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 431.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0.19936797
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.97992474
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1398455459243526, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_Name
+      value: stand (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -23
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5d2e136514efc4da8925510652216bbc,
+        type: 3}
+    - target: {fileID: 4202483231138090, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202483231138090, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.063
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 15.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 6.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 102687924906977804, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Text
+      value: '
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 114951115172397198, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: text
+      value: "This street art mural was done by a member of \u201CTMF,\u201D the SF
+        street art collective that Roc was part of during the 1980s. TMF stands for
+        either \u201CThe Most Fabulous\u201D or \u201CThe Mellow Fellows.\u201D It
+        was located in Psycho City, which was the most famous hub for street art/graffiti
+        in San Francisco during the time. It was a place where all the collectives
+        would congregate, interact with each other, exchange ideas, and even \u201Cbattle\u201D--
+        which were more friendly and fun-oriented, and never involved actual violence. "
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &2056617501
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 7.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 6.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 281.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.2021891
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.9793465
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252834450894874, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 23.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 14c8c286ae1734ea8ade7f4ab8a74afe,
+        type: 3}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 5.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 4.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 212834803225287894, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: m_DrawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202483231138090, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202483231138090, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 114951115172397198, guid: 387b0ac096905450db72db4ee5f9ebfd,
+        type: 2}
+      propertyPath: text
+      value: "This is another example of Roc\u2019s Chicano black and grey style drawings
+        which reflects many of the same elements as the previous piece, such as a
+        conventionally attractive, young Chicana with half a skeletal face, and palm
+        trees plus large text denoting his love for representing his home city and
+        state. The word \u201CCalifornia\u201D is illustrated in a manner similar
+        to that of Bay Area and general graffiti, where the letters have a dripping
+        effect. Many examples of Bay Area graffiti use this \u201Cdrip\u201D style;
+        Roc was initially in a street art/graffiti collective during the height of
+        the 1980s SF street art movement, and practiced this drip technique in graffiti
+        lettering while he was an adolescent-- long before he produce these black
+        and grey style drawings and tattoos. The letters of SF may draw from a \u201Cpuffy\u201D
+        style of graffiti lettering, or seem to emulate a geological, rock-like quality,
+        which could refer to his collective tag name \u201CRocko\u201D or \u201CRoc,\u201D
+        the name he goes by. "
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 387b0ac096905450db72db4ee5f9ebfd, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &2069423095 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1399477708896276, guid: fc200386c5dac41da9dacfa0bafa4a27,

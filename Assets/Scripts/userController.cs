@@ -62,7 +62,7 @@ public class userController : MonoBehaviour {
         if (Input.GetMouseButtonDown(0)) {
             if (Physics.Raycast(camTrans.position, camTrans.forward, out hit, 500)) {
                 if (hit.transform.CompareTag("audio")) {
-                    hit.transform.gameObject.GetComponent<AudioSource>().Play();
+                    hit.transform.gameObject.GetComponent<audioController>().handleClick();
                 }
             }
         }
